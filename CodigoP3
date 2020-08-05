@@ -1,0 +1,146 @@
+public class main(){
+public class colegio{
+	private int alumno=0;
+	private int calumnos=0;
+	private String pagos;
+	private String cursos;
+	private int ingles=0;
+	private int frances=0;
+	private int portugues=0;
+	private int curingles=0;
+	private int curfrances=0;
+	private int curportugues=0;
+	private int forefectivo=0;
+	private int forcredito=0;
+	private int forcheque=0;
+	private int numalumnos=0;
+	private int cuotas=0;
+	private int cuota1=0;
+	private int cuota2=0;
+	private int cuota3=0;
+public void reiniciar(){
+calumnos=0;
+alumno=0;
+ingles=0;
+frances=0;
+portugues=0;
+curingles=0;
+curfrances=0;
+curportugues=0;
+forefectivo=0;
+forcredito=0;
+forcheque=0;
+numalumnos=0;
+cuotas=0;
+cuota1=0;
+cuota2=0;
+cuota3=0;
+}
+public String dcursos(){
+return cursos;
+}
+public String dcalumnos(){
+return calumno;
+}
+public String dpagos(){
+return pagos;
+}
+public void agregaralumnos(int inscripcion, int clases){
+numalumno+=1;
+calumnos+=inscripcion;
+
+if (clases==ingles){
+curingles+=inscripcion;
+}
+else if (clases==frances){
+curfrances+=inscripcion;
+}
+else if (clases==portugues){
+curportugues+=inscripcion;
+}
+}
+public void agregarformapago(int cuotas){
+pagos+=1;
+
+if(cuotas==efectivo){
+forefectivo+=1;
+}
+else if(cuotas==credito){
+forcredito+=1;
+}
+else if(cuotas==cheque){
+forcheque+=1;
+}
+}
+public void agregaralumno (String nombre, String contenido, int duracion, int nivel, int inico, int fin, int precio, String matricula){
+alumno+=nombre;
+alumno+=contenido;
+duracion+=1;
+nivel+=1;
+inicio+=1;
+fin+=1;
+precio+=1;
+alumno+=matricula;
+}
+public void agregarcurso(int cedula, String nombre, String apellido, int tel, int direccion, String ocupacion){
+cedula+=1;
+cursos+=nombre;
+cursos+=apellido;
+tel+=1;
+direccion+=1;
+cursos+=ocupacion;
+}
+public void agregarcuota(int cuot){
+cuotas+=1;
+
+if(cuotas==1){
+cuota1+=1;
+}
+else if(cuotas==2){
+cuota2+=1;
+}
+else if(cuotas==3){
+cuota3+=1;
+}
+public class idiomas{
+private colegio escuela;
+public void iniciar(){
+escuela= new colegio();
+escuela.iniciar();
+}
+}
+public colegio menu(){
+return escuela;
+}
+public void agregaralumnos(int calumnos){
+escuela.agregaralumnos(calumnos);
+}
+public void agregarformapago(String pagos, int cuotas){
+escuela.agregarformapago(pagos,cuotas);
+}
+public void agregaralumno(int alumno, int duracion, int nivel, int inicio, int fin, int precio){
+escuela.agregaralumno(alumno, duracion, nivel, inicio, fin, precio);
+}
+public void agregarcurso(String cursos, int cedula, int tel,int direccion){
+escuela.agregarcurso(cursos, cedula, tel, direccion);
+}
+public void agregarcuota(int cuotas){
+escuela.agregarcuota(cuotas);
+}
+public int totalalumnos(){
+return escuela.calumnos;
+}
+public void formaplan(){
+return escuela.(pagos, cuotas);
+}
+public void infocurso(){
+return escuela.alumno;
+}
+public void infoalumno(){
+return escuela.cursos;
+}
+public void reiniciar(){
+escuela. reiniciar;
+}
+}
+}
